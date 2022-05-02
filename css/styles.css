@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(132, 113, 27);
+    color: rgb(111, 49, 27);
+    border-style: solid;
+    border-color: green;
+    border-width: 2px;
+    padding: 5px 15px;
+}
+
+.familyguy {
+    display: flex;
+    justify-content: center;
+}
+
+.familyguy img {
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+/* flex box test */
+.container-1 {
+    display: flex;
+    color: blue;
+    gap: 8px;
+}
+
+.container-1 div {
+    border-color: red;
+    border-style: solid;
+    background-color: aqua;    
+}
+
+.box-1 {
+    flex: 1;
+}
+
+.box-2 {
+    flex: 1;
+}
+
+.box-3 {
+    flex: 1;
+}
+
+/* page 2 */
+.page-2-header {
+    background-color: #2c90fc;
+    display: flex;
+    justify-content: center;
+    border: 2px solid grey;
+}
+
+.pg2-header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.bananabread img {
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    height: 200px;
+    margin: 20px auto;
+    width: 200px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5px;
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
